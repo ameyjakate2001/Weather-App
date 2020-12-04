@@ -138,6 +138,9 @@ input[type="submit"]:focus{
     margin-bottom: 4px;
     font-weight: normal;
 }
+.change-temp, .H , .P{
+    font-size: 1.1em;
+}
 
 @media screen and (max-width:700px){
    .heading{
@@ -156,6 +159,9 @@ input[type="submit"]:focus{
         width: 15%;
         font-size: 10px;
     }
+    .change-temp, .H , .P{
+    font-size: 0.9em;
+}
 }
 @media screen and (max-width:500px){
 
@@ -179,57 +185,3 @@ input[type="submit"]:focus{
 }
 
 }
-
-
-
-
-
-
-
-
-
-/* 
-.input{
-    text-align: center;
-    margin: 100px;
-}
-input[type="text"]{
-    padding: 10px 10px;
-    height: 50px;
-    width: 60%;
-    background: #e7e7e7;
-    font-weight: bold;
-    font-size: 20px;
-    border: none;
-}
-input[type="text"]:focus{
-    outline:2px solid rgb(128, 229, 255);
-}
-input[type="submit"]{
-    height: 50px;
-    width: 20%;
-    background: #e7e7e7;
-    border-radius: 4px;
-    font-weight: bold;
-    font-size: 20px;
-    border: none;
-}
-input[type="submit"]:focus{
-    outline: none;
-}
-.display{
-    width: 70%;
-    background: #e7e7e7;
-    text-align: center;
-    height: 40vh;
-    margin: 50px auto;
-    border-radius: 2px;
-}
-.display h1{
-    padding: 15px 0;
-  }
-.display p{
-    margin:40px 0;
-    font-size:20px;
-    font-family: sans-serif;
- } */
