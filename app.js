@@ -23,8 +23,8 @@ submit.addEventListener('click',()=>{
                 heading.innerHTML = response.name;
                 changeTemp.innerHTML = response.main.temp;
                 desc.innerHTML = response.weather[0].description; 
-                hum.innerHTML = response.main.humidity;
-                pres.innerHTML = response.main.pressure;
+                hum.innerHTML = response.main.humidity +' %';
+                pres.innerHTML = response.main.pressure +' hPa';
                 input.value ='';
             }
             
