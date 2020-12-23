@@ -21,7 +21,7 @@ submit.addEventListener('click',()=>{
                 var urls = "http://openweathermap.org/img/w/" +strings+ ".png>"
                 iconChange.innerHTML = `<img class="fa-cloud" src=${urls}`;
                 heading.innerHTML = response.name;
-                changeTemp.innerHTML = response.main.temp;
+                changeTemp.innerHTML = (response.main.temp - -273.15);
                 desc.innerHTML = response.weather[0].description; 
                 hum.innerHTML = response.main.humidity +' %';
                 pres.innerHTML = response.main.pressure +' hPa';
