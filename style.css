@@ -166,7 +166,7 @@ input[type="submit"]:focus{
     }
     
     .bada-dibba:focus-within{
-        height: 70vh;
+        height: 45vh;
     }
     
 
@@ -181,7 +181,7 @@ input[type="submit"]:focus{
 @media screen and (max-width:500px){
 
     .bada-dibba:focus-within{
-        height: 70vh;
+        height: 45vh;
     }
    .temp{
        padding-left: 0;
@@ -211,49 +211,3 @@ input[type="submit"]:focus{
 
 
 
-
-/* 
-.input{
-    text-align: center;
-    margin: 100px;
-}
-input[type="text"]{
-    padding: 10px 10px;
-    height: 50px;
-    width: 60%;
-    background: #e7e7e7;
-    font-weight: bold;
-    font-size: 20px;
-    border: none;
-}
-input[type="text"]:focus{
-    outline:2px solid rgb(128, 229, 255);
-}
-input[type="submit"]{
-    height: 50px;
-    width: 20%;
-    background: #e7e7e7;
-    border-radius: 4px;
-    font-weight: bold;
-    font-size: 20px;
-    border: none;
-}
-input[type="submit"]:focus{
-    outline: none;
-}
-.display{
-    width: 70%;
-    background: #e7e7e7;
-    text-align: center;
-    height: 40vh;
-    margin: 50px auto;
-    border-radius: 2px;
-}
-.display h1{
-    padding: 15px 0;
-  }
-.display p{
-    margin:40px 0;
-    font-size:20px;
-    font-family: sans-serif;
- } */
