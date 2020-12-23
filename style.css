@@ -164,10 +164,6 @@ input[type="submit"]:focus{
 }
 @media screen and (max-width:600px){
 
-     .bada-dibba{
-        height: 45vh;
-    }
-
     
     input[type="text"]{
         font-size: 10px;
@@ -189,12 +185,8 @@ input[type="submit"]:focus{
 }
 @media screen and (max-width:500px){
 
-    .bada-dibba{
-        height: 35vh !important;
-    }
-
     .bada-dibba:focus-within{
-        height: 55vh !important;
+        height: auto;
     }
     
    .temp{
@@ -217,5 +209,3 @@ input[type="submit"]:focus{
 }
 
 }
-
-
