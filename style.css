@@ -190,11 +190,11 @@ input[type="submit"]:focus{
 @media screen and (max-width:500px){
 
     .bada-dibba{
-        height: 45vh;
+        height: 35vh;
     }
 
     .bada-dibba:focus-within{
-        height: 45vh;
+        height: 35vh;
     }
     
    .temp{
