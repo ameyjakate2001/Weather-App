@@ -144,6 +144,11 @@ input[type="submit"]:focus{
 
 @media screen and (max-width:700px){
 
+
+    .bada-dibba{
+        height: 45vh;
+    }
+
     *{
         font-family: sans-serif !important;
     }
@@ -183,6 +188,7 @@ input[type="submit"]:focus{
     .bada-dibba:focus-within{
         height: 45vh;
     }
+    
    .temp{
        padding-left: 0;
    }
@@ -203,11 +209,5 @@ input[type="submit"]:focus{
 }
 
 }
-
-
-
-
-
-
 
 
